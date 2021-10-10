@@ -49,13 +49,13 @@
   background: #0747a6 !important;
   color: white !important;
 }
-i {
+.mini-div i {
   color: gray;
   font-size: 50px;
   position: absolute;
   right: -7%;
   bottom: 0%;
 }
-p {
+.mini-div p {
   padding-left: 10px;
 }

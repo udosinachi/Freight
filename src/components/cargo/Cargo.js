@@ -5,15 +5,33 @@ const Cargo = () => {
   return (
     <div className='cargo'>
       <div className='cargo-bodydiv'>
-        <div>
+        <div className='cargo-div1'>
           <h3>Cargo Details</h3>
-          <label class='switch'>
-            <input type='checkbox' />
-            <span class='slider round'></span>
+          <div className='switch-div'>
+            <label class='switch' id='label'>
+              <input type='checkbox' />
+              <span class='slider round'></span>
+            </label>
             <p>
               <b>Dangerous Cargo</b> (ex. Chemicals, Battery)
             </p>
-          </label>
+          </div>
+        </div>
+
+        <div className='cargo-button'>
+          <button className='butt1'>Total Dimension</button>
+          <button className='butt2'>Package Details</button>
+        </div>
+
+        <div className='fields'>
+          <fieldset>
+            <legend>Total Volume</legend>
+            <input placeholder='cdm' />
+          </fieldset>
+          <fieldset>
+            <legend>Total Volume</legend>
+            <input placeholder='kg' />
+          </fieldset>
         </div>
       </div>
     </div>

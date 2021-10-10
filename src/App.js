@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navbar'
 import Services from './components/services/Services'
 import Location from './components/location/Location'
 import Cargo from './components/cargo/Cargo'
+import Additional from './components/additional/Additional'
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <Location />
       <br />
       <Cargo />
+      <br />
+      <Additional />
     </div>
   )
 }

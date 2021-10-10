@@ -1,10 +1,10 @@
-.cargo {
+.additional {
   width: 75%;
   margin: auto;
   background-color: white;
 }
 
-.cargo-bodydiv {
+.additional-bodydiv {
   width: 90%;
   margin: auto;
   background-color: white;
@@ -12,7 +12,6 @@
   padding-bottom: 30px;
   border: 3px solid black;
 }
-
 .switch {
   position: relative;
   display: inline-block;
@@ -69,48 +68,43 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
-
-#label {
-  margin: auto;
-}
-.cargo-div1 {
+.four {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.switch-div {
+.add-switch-div {
   display: flex;
+  justify-content: space-between;
+  border: 3px solid black;
+  width: 100%;
+  margin: 10px 0;
 }
-.switch-div p {
-  padding-left: 10px;
+.add-switch-div label {
+  border: 3px solid red;
 }
-.cargo-button button {
-  width: 150px;
-  height: 40px;
-  font-size: medium;
+.writing p {
+  padding: 2px;
+  margin: 2px;
+  font-size: smaller;
 }
-.butt1 {
-  color: #0747a6;
-  border: 1px solid solid;
-  background-color: transparent;
-}
-.butt2 {
-  color: gray;
-  border: 1px solid solid;
-  background: whitesmoke;
-}
-.fields {
-  display: flex;
-  margin-top: 25px;
-}
-.fields fieldset {
+.writing h3 {
   padding: 0;
-  margin-right: 15px;
+  margin: 0;
 }
-.fields input {
-  padding: 5px;
-  border: none;
+.writing {
+  border: 2px solid green;
+  width: 100%;
 }
-.fields input::-webkit-input-placeholder {
-  float: right;
+.first-divs {
+  border: 3px solid pink;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+@media (max-width: 1220px) {
+  .first-divs {
+    flex-wrap: wrap;
+  }
 }
