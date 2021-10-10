@@ -1,0 +1,14 @@
+.booking-div {
+  width: 75%;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.new {
+  font-size: 28px;
+}
+.fill {
+  color: grey;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,46 @@
+nav {
+  background-color: #0747a6;
+  color: white;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  padding: auto;
+}
+.first-header {
+  display: flex;
+  width: 65%;
+}
+h2 {
+  margin: 20px;
+}
+.input1 {
+  width: 450px;
+  height: 30px;
+  margin: 20px;
+  border: none;
+  background-color: #8ea8c2 !important;
+}
+.input1::-webkit-input-placeholder {
+  color: grey;
+}
+.button-header {
+  width: 35%;
+  display: flex;
+  justify-content: flex-end;
+}
+.button1 {
+  width: 150px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  margin: 20px;
+}
+.button2 {
+  width: 150px;
+  border-radius: 5px;
+  border: none;
+  background-color: limegreen;
+  color: white;
+  margin: 20px;
+}
