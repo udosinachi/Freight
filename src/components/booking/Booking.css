@@ -3,6 +3,11 @@
   margin: auto;
   padding-bottom: 40px;
 }
+@media (max-width: 500px) {
+  .booking-div {
+    width: 90%;
+  }
+}
 
 .new {
   font-size: 28px;

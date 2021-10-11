@@ -3,17 +3,28 @@ import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <div>
-      <nav>
-        <div className='first-header'>
-          <h2>Send FREIGHT</h2>
-          <input className='input1' type='search' placeholder='Search' />
+    <div className='maind'>
+      <header>
+        <div className='nav-body'>
+          <div className='nav-text'>
+            <h2>
+              Send <span> FREIGHT</span>
+            </h2>
+          </div>
+
+          <div className='nav-input'>
+            <input type='search' placeholder='Search' />
+          </div>
+
+          <div className='nav-buttons'>
+            <button className='button1'>Request Quote</button>
+            <button className='button2'>Book Shipment</button>
+          </div>
         </div>
-        <div className='button-header'>
-          <button className='button1'>Request Quote</button>
-          <button className='button2'>Book Shippment</button>
-        </div>
-      </nav>
+      </header>
+      <div className='down-input'>
+        <input type='search' placeholder='Search' />
+      </div>
     </div>
   )
 }

@@ -4,6 +4,11 @@
   background-color: white;
   border-radius: 5px;
 }
+@media (max-width: 500px) {
+  .services-div {
+    width: 100%;
+  }
+}
 .services-bodydiv {
   width: 90%;
   margin: auto;

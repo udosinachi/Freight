@@ -8,9 +8,9 @@ const Cargo = () => {
         <div className='cargo-div1'>
           <h3>Cargo Details</h3>
           <div className='switch-div'>
-            <label class='switch' id='label'>
+            <label className='switch' id='label'>
               <input type='checkbox' />
-              <span class='slider round'></span>
+              <span className='slider round'></span>
             </label>
             <p>
               <b>Dangerous Cargo</b> (ex. Chemicals, Battery)
@@ -18,10 +18,10 @@ const Cargo = () => {
           </div>
         </div>
 
-        <div className='cargo-button'>
+        <span className='cargo-button'>
           <button className='butt1'>Total Dimension</button>
           <button className='butt2'>Package Details</button>
-        </div>
+        </span>
 
         <div className='fields'>
           <fieldset>

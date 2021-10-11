@@ -3,6 +3,11 @@
   margin: auto;
   background-color: white;
 }
+@media (max-width: 500px) {
+  .additional {
+    width: 100%;
+  }
+}
 
 .additional-bodydiv {
   width: 90%;
@@ -10,7 +15,6 @@
   background-color: white;
   padding-top: 10px;
   padding-bottom: 30px;
-  border: 3px solid black;
 }
 .switch {
   position: relative;
@@ -76,12 +80,11 @@ input:checked + .slider:before {
 .add-switch-div {
   display: flex;
   justify-content: space-between;
-  border: 3px solid black;
   width: 100%;
   margin: 10px 0;
 }
 .add-switch-div label {
-  border: 3px solid red;
+  margin: 10px 25px 0 0;
 }
 .writing p {
   padding: 2px;
@@ -93,11 +96,9 @@ input:checked + .slider:before {
   margin: 0;
 }
 .writing {
-  border: 2px solid green;
   width: 100%;
 }
 .first-divs {
-  border: 3px solid pink;
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;

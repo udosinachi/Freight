@@ -9,9 +9,9 @@ const Additional = () => {
         <div className='four'>
           <div className='first-divs'>
             <div className='add-switch-div'>
-              <label class='switch' id='label'>
+              <label className='switch' id='label2'>
                 <input type='checkbox' />
-                <span class='slider round'></span>
+                <span className='slider round'></span>
               </label>
               <div className='writing'>
                 <h3>
@@ -22,9 +22,9 @@ const Additional = () => {
             </div>
 
             <div className='add-switch-div'>
-              <label class='switch' id='label'>
+              <label className='switch' id='label2'>
                 <input type='checkbox' />
-                <span class='slider round'></span>
+                <span className='slider round'></span>
               </label>
               <div className='writing'>
                 <h3>
@@ -37,9 +37,9 @@ const Additional = () => {
 
           <div className='first-divs'>
             <div className='add-switch-div'>
-              <label class='switch' id='label'>
+              <label className='switch' id='label2'>
                 <input type='checkbox' />
-                <span class='slider round'></span>
+                <span className='slider round'></span>
               </label>
               <div className='writing'>
                 <h3>
@@ -52,9 +52,9 @@ const Additional = () => {
             </div>
 
             <div className='add-switch-div'>
-              <label class='switch' id='label'>
+              <label className='switch' id='label2'>
                 <input type='checkbox' />
-                <span class='slider round'></span>
+                <span className='slider round'></span>
               </label>
               <div className='writing'>
                 <h3>
