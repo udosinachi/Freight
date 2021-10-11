@@ -29,7 +29,7 @@ const Cargo = () => {
             <input placeholder='cdm' />
           </fieldset>
           <fieldset>
-            <legend>Total Volume</legend>
+            <legend>Total Weight</legend>
             <input placeholder='kg' />
           </fieldset>
         </div>

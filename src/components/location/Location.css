@@ -44,6 +44,15 @@
     position: relative;
   }
   .imp-exp i {
+    display: block;
+    position: absolute;
+    top: -60%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .imp-exp i {
+    display: none;
     position: absolute;
     top: -60%;
   }
@@ -83,6 +92,7 @@
 }
 .pin {
   color: black;
+  padding: 0 4px;
 }
 .location-subdiv2 {
   display: flex;
