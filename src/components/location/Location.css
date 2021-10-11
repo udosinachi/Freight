@@ -1,6 +1,7 @@
 .location {
   width: 75%;
   margin: auto;
+  padding-top: 20px;
   background-color: white;
 }
 @media (max-width: 500px) {
@@ -40,6 +41,11 @@
   .imp-exp {
     margin: auto 0;
     width: 100%;
+    position: relative;
+  }
+  .imp-exp i {
+    position: absolute;
+    top: -60%;
   }
 }
 @media (max-width: 570px) {

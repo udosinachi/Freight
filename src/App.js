@@ -18,6 +18,7 @@ function App() {
       <Cargo />
       <br />
       <Additional />
+      <br />
     </div>
   )
 }
